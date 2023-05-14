@@ -1,0 +1,122 @@
+
+.form-section{
+  /* border:3px solid black; */
+  background: #f7f7f7;
+  /* padding:20px; */
+}
+
+.form-wrapper{
+  display: flex;
+  /* border:3px solid purple; */
+  padding:1rem 0;
+  justify-content: space-between;
+}
+
+.company-address{
+  width:45%;
+  /* border:2px solid red; */
+  background: #fff;
+  padding:1rem;
+}
+
+.address-group{
+  /* border:3px dotted black; */
+  margin-bottom:3rem;
+}
+
+.company-address i{
+  display: inline-block;
+  margin-right:1rem;
+}
+
+.company-address h2{
+  margin-bottom:0.1rem;
+  display:inline-block;
+  text-transform: uppercase;
+  font-size:1.2rem;
+}
+
+.contactIcon{
+  /* border:2px solid red; */
+  margin-right:0.5rem;
+  color:#e63946;
+
+}
+
+
+.company-address img{
+  max-width:90%;
+  min-height:20rem;
+  height:20rem;
+  object-fit: cover;
+  object-position: right;
+  border-radius:15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border:2px solid red; */
+}
+
+/* ############### form styling ############### */
+
+.form{
+  width:49%;
+  /* border:2px solid red; */
+  background: #fff;
+  font-size:1rem;
+  /* color:#555; */
+  padding:1rem;
+  margin-left:1rem;
+}
+
+
+.form h1::after{
+  content:'';
+  display: block;
+  /* border:3px solid #ee4758; */
+  background:#ee4758;
+  width:99%;  
+}
+
+.form p{
+  /* border:2px dotted black; */
+  margin:1rem 0;
+}
+
+.form .form-group label{
+  display: block;
+} 
+
+
+.form-group{
+  /* border:3px solid purple; */
+  margin-bottom:1.2rem;
+}
+
+.form-group input{
+  padding:0.5rem;
+  width:90%;
+}
+
+.form-group label::after{
+  content:'*';
+  color:#e63946;
+}
+
+.form textarea{
+  width:90%;
+  height:15rem;
+  padding:0.5rem;
+}
+
+.form .form-btn{
+  display: block;
+  border:none;
+  margin:0 auto;
+  color:#fff;
+  padding:0.5rem 3rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #e63946;
+  cursor:pointer;
+  outline: none;
+}
+
